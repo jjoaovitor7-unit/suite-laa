@@ -1,9 +1,8 @@
 function insertionSort(arr) {
-  let qtde = arr.length;
   let current;
   let i, j;
 
-  for (i = 1; i < qtde; i++) {
+  for (i = 1; i < arr.length; i++) {
     current = arr[i];
     j = i - 1;
 
