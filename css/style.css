@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 25vh;
+}
+
+header h1 {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 50px;
+}
+
+.highlight {
+    color: red;
+}
+
+.container-input label {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+
+.radios-options {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+
+input[type="radio"] {
+  margin-top: 25px;
+}
+
+button[type="submit"] {
+    height: 50px;
+    border: 1px solid rgba(196, 12, 12, 0.6);
+    border-radius: 10px;
+    color: #cf1e07;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+button[type="submit"]:hover {
+    background: rgba(139, 0, 0, 0.95);
+    color: #fff;
+}
