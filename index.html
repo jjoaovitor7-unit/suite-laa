@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suíte LAA</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Suíte <span class="highlight">LAA</span></h1>
+    </header>
+
+    <div class="container-input">
+      <label>Elementos para serem ordenados: </label>
+      <input type="text" id="elements" />
+      <button type="submit" id="btn-ordenar">Ordenar!</button>
+    </div>
+
+    <div class="radios-options">
+      <input type="radio" name="sort" id="insertionSort" />
+      <label>Insertion Sort</label>
+      <input type="radio" name="sort" id="bubbleSort" />
+      <label>Bubble Sort</label>
+      <input type="radio" name="sort" id="selectionSort" />
+      <label>Selection Sort</label>
+      <input type="radio" name="sort" id="quickSort" />
+      <label>Quick Sort</label>
+    </div>
+
+    <p id="ordered"></p>
+    <p id="runtime"></p>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
