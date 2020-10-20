@@ -15,8 +15,9 @@ function bubbleSortRuntime(arr) {
   let begin = Date.now();
   ordered.textContent = bubbleSort(arr);
   let end = Date.now();
-  let time = (end - begin) * 1000000;
-  runtime.textContent = "Tempo de Execução: " + time + "ns";
+  let timeNS = (end - begin) * 1000000000;
+  let timeS = (end - begin) / 1000000000;
+  runtime.textContent = "Tempo de Execução: " + timeNS + "ns ou " + timeS + "s.";
 }
 
 export default bubbleSortRuntime;
