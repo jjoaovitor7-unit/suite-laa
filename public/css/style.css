@@ -6,9 +6,10 @@ body {
   margin: 15vh;
 }
 
-header h1 {
+#page-landing header h1 {
   font-family: "Sansita Swashed", cursive;
   font-size: 50px;
+  text-align: center;
 }
 
 .highlight {
@@ -25,8 +26,13 @@ header h1 {
   font-size: 18px;
 }
 
+.radios-options label {
+  margin-right: 15px;
+}
+
 input[type="radio"] {
   margin-top: 25px;
+  margin-right: 10px;
 }
 
 button[type="submit"] {
@@ -37,9 +43,22 @@ button[type="submit"] {
     font-size: 20px;
     cursor: pointer;
     transition: background 0.5s;
+    margin-left: 10px;
 }
 
 button[type="submit"]:hover {
     background: rgba(139, 0, 0, 0.95);
     color: #fff;
+}
+
+.obs {
+  text-align: center;
+}
+
+#ordered {
+  text-align: center;
+}
+
+#runtime {
+  text-align: center;
 }
