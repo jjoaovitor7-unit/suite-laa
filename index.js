@@ -3,7 +3,7 @@ window.onload = () => {
 };
 
 let module = {
-  renderSpecificItem: () => {
+  renderHomePage: () => {
     let body = document.querySelector("body");
     let divPageLanding = document.createElement("div");
     divPageLanding.setAttribute("id", "page-landing");
@@ -100,7 +100,7 @@ let module = {
   render: () => {
     let currentPath = location.hash.substr(1); //substr(1) remove o #.
     if (currentPath == "") {
-      module.renderSpecificItem();
+      module.renderHomePage();
     }
   },
 };
